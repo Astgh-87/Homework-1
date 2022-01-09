@@ -1,0 +1,106 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    line-height: normal;
+    position: relative;
+    font-family: Arial,Helvetica,sans-serif;
+    list-style: none;
+    }
+body {
+    background: url(nkar/10.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+  h1 {
+    margin-right: 60%;
+    font: normal 40px Arial,sans-serif;
+    color: white;
+    padding-bottom: 20px;
+}
+.vernagir {
+    width: 80%;
+    height: auto;
+    margin: 10% auto;
+}
+.vernagir p {  
+    color: white;
+    letter-spacing: 18px;
+    font-size: 25px;
+}
+.container {
+    width: 90%:;
+    height: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right a {
+    width: 32px;
+    display: inline;
+     font-size: 25px;
+     color: white;
+    }
+.right li {
+    width: 53px;
+    height: auto;
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+    }
+.left p {
+  width: 30%;
+    height: auto;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.top-menu {
+    width: 25px;
+    font: 17px Arial,sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.top-menu p {
+font-size: 25px;
+ color: white; 
+}
+.navbar {
+    width: 350px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    }
+.navbar a {
+text-decoration: none;
+color: white;
+}
+.nav-link:hover {
+color: yellow;
+}
+.site-footer p {
+   width: 80%;
+    height: auto;
+   margin-top: 30%;
+   margin-bottom: 50px; 
+  margin: 20% auto;
+   color: white;
+}
+.dropdown-li{
+    position: relative;
+}
+.dropdown-menu{
+display: none;
+position: absolute;
+width: 100px;
+background-color: rgba(0,0,0,0.5);
+}
+.dropdown-menu>li{
+    padding: 5px 0;
+}
+.dropdown-li:hover  .dropdown-menu{
+    display: block;
+}
